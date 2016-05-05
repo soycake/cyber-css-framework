@@ -1,0 +1,25 @@
+
+/* =============================================
+ * Setting
+ * ============================================= */
+
+@import '_setting';
+
+/* =============================================
+ * Colume
+ * ============================================= */
+
+$col-width   : $max-width / $max-column;
+
+$col-12      : ($col-width * 12) / $max-width * 100%;
+$col-11      : ($col-width * 11) / $max-width * 100%;
+$col-10      : ($col-width * 10) / $max-width * 100%;
+$col-9       : ($col-width * 09) / $max-width * 100%;
+$col-8       : ($col-width * 08) / $max-width * 100%;
+$col-7       : ($col-width * 07) / $max-width * 100%;
+$col-6       : ($col-width * 06) / $max-width * 100%;
+$col-5       : ($col-width * 05) / $max-width * 100%;
+$col-4       : ($col-width * 04) / $max-width * 100%;
+$col-3       : ($col-width * 03) / $max-width * 100%;
+$col-2       : ($col-width * 02) / $max-width * 100%;
+$col-1       : ($col-width * 01) / $max-width * 100%;
