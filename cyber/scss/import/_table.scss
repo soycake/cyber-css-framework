@@ -9,11 +9,11 @@
  * Table 
  * ============================================= */
 
-table { border-collapse: separate; border-spacing: 0; max-width: 100%; width: 100%; }
+table { background-color: transparent; }
 
-th { text-align: left; font-weight: bold; }
-
-th,td { padding: .25rem 1rem; line-height: inherit; }
-
-th { vertical-align: bottom }
-td { vertical-align: top }
+.table {
+    &.table-fluid { border-spacing: 0; max-width: 100%; width: 100%; }
+    &.table-hover tbody > tr:nth-child(odd):hover { background: #DDDDDD; cursor: pointer; } // highlight
+    tbody > tr > td, thead > tr > th, tfoot > tr > td { border: 1px solid #DDDDDD; padding: 0.4rem 0.5rem; text-align: left; }
+    border-collapse: collapse; margin-bottom: 20px;
+}

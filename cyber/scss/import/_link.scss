@@ -10,5 +10,10 @@
  * Link
  * ============================================= */
 
-a { text-decoration: none; transition: color 200ms; cursor: pointer; }
-a:hover { color: $color-orange; }
+a { 
+    &:link, &:active, &:hover, &:visited { text-decoration: none; }
+    &:hover { color: $color-orange; }
+    text-decoration: none; 
+    transition: color 200ms; 
+    cursor: pointer; 
+}

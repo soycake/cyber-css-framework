@@ -21,7 +21,12 @@
     max-width: $max-width;
     display: block; 
 }
-
+.container-fluid { 
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
 @media only screen and (min-width: $max-width) {
     .container { padding:0 10px; }
 }
