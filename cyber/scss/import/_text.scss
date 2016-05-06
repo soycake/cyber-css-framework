@@ -5,37 +5,32 @@
 
 @import '../vars/_setting';
 
-$h1: $base-font-size * 2.250 !default;
-$h2: $base-font-size * 1.750 !default;
-$h3: $base-font-size * 1.500 !default;
-$h4: $base-font-size * 1.250 !default;
-$h5: $base-font-size * 1.125 !default;
-$h6: $base-font-size !default;
-
 /* =============================================
  * Text
  * ============================================= */
 
-hr { height: 0; -moz-box-sizing: content-box; box-sizing: content-box; margin-top: 10px; margin-bottom: 10px; border: 0; border-top: 1px solid #EEEEEE; }
+hr { height: 0; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; margin-top: 10px; margin-bottom: 10px; border: 0; border-top: 1px solid #EEEEEE; }
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-weight: 400; margin-bottom: 1rem; }
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-weight: 600; line-height: 1.1; margin-bottom: 1rem; }
 
-h1, .h1 { font-size: $h1; line-height: 1.2; }
-h2, .h2 { font-size: $h2; line-height: 1.3; }
-h3, .h3 { font-size: $h3; line-height: 1.4; }
-h4, .h4 { font-size: $h4; line-height: 1.5; }
-h5, .h5 { font-size: $h5; }
-h6, .h6 { font-size: $h6; }
+h1, .h1 { font-size: 32px; }
+h2, .h2 { font-size: 28px; }
+h3, .h3 { font-size: 24px; }
+h4, .h4 { font-size: 20px; }
+h5, .h5 { font-size: 16px; }
+h6, .h6 { font-size: 12px; }
 
 h1 small,.h1 small,h2 small,.h2 small,h3 small,.h3 small,h1 
 .small,.h1 .small,h2 .small,.h2 .small,h3 .small,.h3 .small,
 h4 small,.h4 small,h5 small,.h5 small,h6 small,.h6 small,h4 
 .small,.h4 .small,h5 .small,.h5 .small,h6 .small,.h6 .small { 
+    font-weight: normal;
     font-size: 0.55em;
     color: #999999; 
 }
 
-p { margin-top: 0; margin-bottom: 1rem; }
+p { margin-top: 0; margin: 0 0 10px; }
+pre { overflow: auto; font-size: 1em; }
 
 /* ====================================================
  * Lists

@@ -12,6 +12,10 @@ $persent : 4.5;
  * Form 
  * ============================================= */
 
+input { line-height: normal; }
+textarea { overflow: auto; }
+select { text-transform: none; }
+
 .form { 
     .form-group { margin-bottom: 10px;  }
     .form-control { border-radius: 2px; border: 1px solid #EEEEEE; padding: 4px 10px; color: #999999; }

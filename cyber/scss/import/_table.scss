@@ -9,7 +9,8 @@
  * Table 
  * ============================================= */
 
-table { background-color: transparent; }
+table { border-spacing: 0; background-color: transparent; }
+td, th { padding: 0; }
 
 .table {
     &.table-fluid { border-spacing: 0; max-width: 100%; width: 100%; }
