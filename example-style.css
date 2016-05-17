@@ -1,4 +1,7 @@
 
-.example-description {
-    
-}
+.logo-name { padding: 15px 0; font-family: "supermarket"; }
+.header { padding: 50px 0; }
+.header h1 { font-size: 3.5em; }
+
+.example { padding: 25px 0; }
+.example-description { }

@@ -1,0 +1,22 @@
+
+/* =============================================
+ * Setting
+ * ============================================= */
+
+@import '../vars/_setting';
+
+/* =========================================================
+ * Nav
+ * ========================================================= */
+
+.navbar { background-color: #27AE60; color: #FFFFFF; }
+.navbar > .nav, .navbar > .nav-logo { display: inline-block; }
+.navbar > .nav-logo h1 { font-size: 1.2em; padding: 0 15px; }
+.navbar > .nav, .navbar > .nav > li > ul { margin: 0; padding: 0; list-style: none; }
+.navbar > .nav > li { display: inline-block; padding: 12px 16px; }
+.navbar > .nav > li a, .navbar > .nav > li a:hover { color: #FFFFFF; }
+.navbar > .nav > li > ul { display: none; position: absolute; margin-top: 13px; background-color: #F9F9F9; min-width: 100px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); z-index: 60; }
+.navbar > .nav > li > ul li:first-child { border-top: 1px solid #27AE60; }
+.navbar > .nav > li > ul a { display: block; padding: 8px 16px; text-align: left; color: #27AE60; }
+.navbar > .nav > li > ul a:hover { background-color: #27AE60; }
+.navbar > .nav > li:hover ul { display: block; }

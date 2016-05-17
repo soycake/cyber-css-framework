@@ -13,8 +13,22 @@ table { border-spacing: 0; background-color: transparent; }
 td, th { padding: 0; }
 
 .table {
-    &.table-fluid { border-spacing: 0; max-width: 100%; width: 100%; }
-    &.table-hover tbody > tr:nth-child(odd):hover { background: #DDDDDD; cursor: pointer; } // highlight
-    tbody > tr > td, thead > tr > th, tfoot > tr > td { border: 1px solid #DDDDDD; padding: 0.4rem 0.5rem; text-align: left; }
-    border-collapse: collapse; margin-bottom: 20px;
+    &.table-fluid { 
+        border-spacing: 0; 
+        max-width: 100%; 
+        width: 100%; 
+    }
+    &.table-hover tbody > tr:nth-child(odd):hover { 
+        background: #DDDDDD; 
+        cursor: pointer; 
+    } // highlight
+    tbody > tr > td, 
+    thead > tr > th, 
+    tfoot > tr > td { 
+        border: 1px solid #DDDDDD;
+        padding: 0.4rem 0.5rem; 
+        text-align: left; 
+    }
+    border-collapse: collapse; 
+    margin-bottom: 20px;
 }

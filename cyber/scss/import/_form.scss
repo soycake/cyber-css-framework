@@ -17,23 +17,48 @@ textarea { overflow: auto; }
 select { text-transform: none; }
 
 .form { 
-    .form-group { margin-bottom: 10px;  }
-    .form-control { border-radius: 2px; border: 1px solid #EEEEEE; padding: 4px 10px; color: #999999; }
-    .form-control[type="submit"] { padding: 8px 10px; color: #555555; font-size: 0.8em; width: auto; }
-    .form-control[type="submit"]:hover { cursor: pointer; }
+    .form-group { 
+        margin-bottom: 10px;  
+    }
+    .form-control { 
+        border-radius: 2px;
+        border: 1px solid #EEEEEE; 
+        padding: 6px 10px; 
+        color: #999999; 
+    }
+    .form-control[type="submit"] { 
+        padding: 8px 10px; 
+        color: #555555; 
+        font-size: 0.8em; 
+        width: auto; 
+    }
+    .form-control[type="submit"]:hover { 
+        cursor: pointer; 
+    }
     font-size: 0.9em;
 }
 
 .form.form-vertical {
     .form-group {
-        .form-label, .form-input { display: block; }
-        .form-label { padding: 8px 0; width: 100%; clear: both; }
+        .form-label, .form-input { 
+            display: block; 
+        }
+        .form-label { 
+            padding: 8px 0; 
+            width: 100%; 
+            clear: both; 
+        }
     }
 }
 
 .form.form-horizontal {
     .form-group {
-        .form-label, .form-input { display: inline-block; }
-        .form-label { padding: 4px 0; padding-right: 5px; }
+        .form-label, .form-input { 
+            display: inline-block; 
+        }
+        .form-label { 
+            padding: 0px 0; 
+            padding-right: 5px; 
+        }
     }
 }
